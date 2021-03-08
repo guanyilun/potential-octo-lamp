@@ -1,0 +1,21 @@
+version: cuts_expt_v0
+depot: /projects/ACT/yilung/work/cuts_expt/depot
+tags:
+  pa4_f150_s19_c11:
+    params: params/cutparams_pa4_f150.par
+    tag_out: pa4_f150_s19_ctest_v0
+  pa4_f220_s19_c11:
+    params: params/cutparams_pa4_f220.par
+    tag_out: pa4_f220_s19_ctest_v0
+  pa5_f090_s19_c11:
+    params: params/cutparams_pa5_f090.par
+    tag_out: pa5_f090_s19_ctest_v0
+  pa5_f150_s19_c11:
+    params: params/cutparams_pa5_f150.par
+    tag_out: pa5_f150_s19_ctest_v0
+  pa6_f090_s19_c11:
+    params: params/cutparams_pa6_f090.par
+    tag_out: pa6_f090_s19_ctest_v0
+  pa6_f150_s19_c11:
+    params: params/cutparams_pa6_f150.par
+    tag_out: pa6_f150_s19_ctest_v0
