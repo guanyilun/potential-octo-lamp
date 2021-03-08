@@ -14,6 +14,11 @@
 # OMP_NUM_THREADS=4 mpirun -n 10 python get_cuts.py --todlist ../data/tods_s19_deep5.txt --release release.yaml --mpi
 
 # report cuts
-mkdir -p out
+# mkdir -p out
 # python report_cuts.py --todlist ../data/tods_s19_deep5.txt --release release.yaml --oname report.txt
-mpirun -n 10 python report_cuts.py --todlist ../data/tods_s19_deep5.txt --release release.yaml --oname report.txt --mpi
+# mpirun -n 10 python report_cuts.py --todlist ../data/tods_s19_deep5.txt --release release.yaml --oname report.txt --mpi
+
+# 0307: so far in comparison, old cuts give better yield than this preliminary cuts
+# it's apparent that the gain calculation is not sufficiently accurate, it doesn't occur
+# for all tods so I suspect it's an outlier issue, the current way I derive common
+# mode is not as robust as the nominal approach
